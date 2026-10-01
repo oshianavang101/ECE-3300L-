@@ -9,3 +9,12 @@ Lab 1 is creating a analog calculator with adders, full adders, half adders, etf
   **Schematic of Lab 1 above**
   
 Lab 2 is creating a Binary to BCD code. We are adding onto Lab 1 by adding bin2BCD, and ____.
+
+Lab 3 is 
+For part 1 this is my schematic: 
+<img width="550" height="673" alt="image" src="https://github.com/user-attachments/assets/da195ac5-ba6a-44e7-9cc0-41cf935cc707" />
+For part 2 this is my schematic:
+
+For part 3 this is my schematic:
+
+
