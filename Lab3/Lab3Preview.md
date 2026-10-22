@@ -8,5 +8,9 @@ For more information about go to [Part 1 here](Lab3_Part1.md)
 
 For part 2 this is my schematic:
 
+For more information about go to [Part 1 here](Lab3_Part2.md)
+
 For part 3 this is my schematic:
+
+For more information about go to [Part 1 here](Lab3_Part3.md)
 
