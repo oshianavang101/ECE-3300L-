@@ -5,6 +5,7 @@ Part 3 connects the simple calculator from the previous lab to the seven-segment
 The calculator produces an eight-bit binary result. That result is converted into three decimal BCD digits and displayed one digit at a time.
 
 The overall signal flow is:
+```text
 x, y, op_sel
       │
       ▼
@@ -26,6 +27,7 @@ simple_calc
                               │
                               ▼
                     first_sseg_driver
+```
 
 Calculator inputs
 The top-level module receives:
@@ -130,9 +132,11 @@ physical digit 7 is selected
 The MUX chooses the number, while active_digit chooses where the number appears.
 
 For example, if the calculator result is 137:
+```text
 digit_sel = 00 → digit 4 displays 7
 digit_sel = 01 → digit 5 displays 3
 digit_sel = 10 → digit 6 displays 1
+```
 
 Carry and overflow outputs
 The calculator's status outputs are passed directly to the top-level outputs:
@@ -147,17 +151,22 @@ overflow indicates that the signed arithmetic result cannot be represented corre
 Module Hierarchy
 The final structure of the lab is:
 Part 1:
+```text
 prior_encoder_test
 ├── priority_encoder_generic
 └── hex2sseg
+```
 
 Part 2:
+```text
 first_sseg_driver_test
 └── first_sseg_driver
     ├── decoder_generic
     └── hex2sseg
+```
 
 Part 3:
+```text
 simple_calc_first_sseg
 ├── simple_calc
 │   ├── adder_subtractor
@@ -168,6 +177,7 @@ simple_calc_first_sseg
 └── first_sseg_driver
     ├── decoder_generic
     └── hex2sseg
+```
 
 Important Verilog Details
 Parameters
