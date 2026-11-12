@@ -1,4 +1,17 @@
-Lab 3 is 
+Lab 3 demonstrates how multiple Verilog modules can be connected together to create larger digital systems on an FPGA board.
+
+The main concepts used in this lab are:
+
+- Priority encoders
+- Binary decoders
+- Seven-segment display conversion
+- Multiplexers
+- Binary-to-BCD conversion
+- Hierarchical module design
+- Active-low FPGA display signals
+
+The lab is divided into three parts. Each part builds on the previous one.
+
 For part 1 this is my schematic: 
 
 <img width="550" height="673" alt="image" src="https://github.com/user-attachments/assets/da195ac5-ba6a-44e7-9cc0-41cf935cc707" />
