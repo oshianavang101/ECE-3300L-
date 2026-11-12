@@ -4,10 +4,11 @@ first_sseg_driver
 Instead of manually connecting a decoder and hex2sseg every time, the driver combines them into one block.
 
 The main signal flow is:
+```text
 active_digit ──► decoder_generic ──► AN
 num ───────────► hex2sseg ─────────► sseg
 DP_ctrl ───────────────────────────► DP
-
+```
 Inputs and outputs
 The driver receives:
 active_digit
