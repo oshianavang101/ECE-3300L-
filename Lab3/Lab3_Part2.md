@@ -22,6 +22,7 @@ DP
 
 active_digit
 There are eight display positions, so three bits are required:
+```text
 000 → digit 0
 001 → digit 1
 010 → digit 2
@@ -30,6 +31,7 @@ There are eight display positions, so three bits are required:
 101 → digit 5
 110 → digit 6
 111 → digit 7
+```
 
 num
 This is the four-bit number that should be displayed.
