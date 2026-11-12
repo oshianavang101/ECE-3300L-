@@ -6,11 +6,14 @@ For part 1 this is my schematic:
 For more information about go to [Part 1 here](Lab3_Part1.md)
 
 For part 2 this is my schematic:
+
 <img width="576" height="549" alt="image" src="https://github.com/user-attachments/assets/77d3436d-782a-45a5-887d-bf8ed9168fde" />
 
 For more information about go to [Part 1 here](Lab3_Part2.md)
 
 For part 3 this is my schematic:
+
+<img width="1013" height="669" alt="image" src="https://github.com/user-attachments/assets/cf72c5f5-dd7f-4cff-9de1-de2e2a22b3aa" />
 
 For more information about go to [Part 1 here](Lab3_Part3.md)
 
